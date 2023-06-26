@@ -54,7 +54,7 @@ roslaunch usb_cam usb_cam-test.launch
 
 <br>
 
-## Topics node usb_cam 
+## Topics usb_cam node 
 ```
 rostopic list
 ```
