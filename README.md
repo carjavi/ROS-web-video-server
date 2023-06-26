@@ -115,11 +115,6 @@ catkin_make
 ```
 ## Run server
 ```
-roscore
-```
-Other terminal Ctrl + Alt + T
-
-```
 roslaunch vidsrv vidsrv.launch
 ```
 
