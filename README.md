@@ -119,7 +119,15 @@ roslaunch vidsrv vidsrv.launch
 ```
 
 ## Web video stremming
-`open URL browser ip:8080`
+Open URL browser <br>
+`http://localhost:8080`<br>
+`http://localhost:8080/stream_viewer?topic=/usb_cam/image_raw`
+
+### Available URLs
+Overview of available ROS topics: http://localhost:8080/<br>
+Webpage showing a video stream: http://localhost:8080/stream_viewer?topic={ROS_TOPIC}<br>
+Video stream URL: http://localhost:8080/stream?topic={ROS_TOPIC}<br>
+Snapshot of next image: http://localhost:8080/snapshot?topic={ROS_TOPIC}<br>
 
 <br>
 
